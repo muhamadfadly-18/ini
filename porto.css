@@ -1,0 +1,151 @@
+body{
+        background-color: black;
+        color: wheat;
+        
+}
+
+
+li{
+        background-color: orange;
+        border-radius: 25px;
+}
+
+
+    li a{
+        display: block;
+        text-decoration: none;
+        margin: 20px;
+        margin-top: 15px;
+        font-size: 20px; 
+        width: 200px;
+        text-align: center;
+        color:white;
+}
+
+
+.logo{
+        float: left;
+}
+
+
+li{
+        float: right;
+}
+
+
+ul{
+        list-style-type: none;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.section{
+        display: flex;
+        text-align: center;
+        margin-left: 110px;
+        padding: 100px;
+        
+}
+img{
+        padding: 50px;
+        margin-left: -20px;
+        margin: 20px;
+}
+.gallery-gambar{
+        margin-left: 3px;
+        
+}
+
+
+@media screen and (max-width:360px){
+        li a{
+    
+            font-size: 10px;
+            margin: 10px;
+            width: 50px;
+    }
+    .section{
+        margin-left: -100px;
+        display: block;
+        margin-top: -100px;
+        
+    }
+    a{
+        text-align: center;
+        margin-right: 30px;
+    }
+    .gallery{
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    h5{
+        text-align: center;
+        margin-right: -20px;
+    }
+    .name{
+        text-align: center;
+        margin-left: 70px;
+    }
+    h1{
+        margin-right: 90px;
+    }
+    img{
+        margin-left: -20px;
+    }
+    figcaption{
+        margin-left: 30px;
+        margin-top: -60px;
+    }
+     span{
+    margin-left: 10px;
+
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

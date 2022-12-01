@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    color: wheat;
+    
+}
+li{
+    background-color: orange;
+    border-radius: 25px;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    margin: 20px;
+    margin-top: 15px;
+    font-size: 20px; 
+    width: 200px;
+    text-align: center;
+    color:white;
+    
+}
+.logo{
+    float: left;
+}
+li{
+    float: right;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-left: -2px;
+    
+}
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 250px;
+    
+}
+.utama{
+    text-align: center;
+}
+.paragraf{
+    font-size: 40px;
+}
+p{
+    color: white;
+}
+.card {
+    display: inline;
+    
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: orange;
+    font-size: 15px;
+}
+@media screen and (max-width:360px){
+    li a{
+
+        font-size: 10px;
+        margin: 10px;
+        width: 50px;
+        
+    }
+    img{
+        width: 150px;
+        height: 200px;
+    }
+    h1{
+       
+       text-align: center;
+       margin-right: 90px;
+    }
+}
+    
